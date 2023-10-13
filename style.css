@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(201, 171, 171);
+}
+.container{
+    background-color: rgb(230, 206, 206);
+    width: 600px;
+    height: 620px;
+    margin-left: 430px ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.preview{
+    background-color: rgb(206, 181, 181);
+    width: 580px;
+    height: 250px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+
+.preview h1{
+    position: relative;
+    top: 100px;
+}
+input{
+    padding: 10px 30px;
+}
+
+.group{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.btngroup{
+    position: relative;
+    top: 10px;
+    left: 260px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

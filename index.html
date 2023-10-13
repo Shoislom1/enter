@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body><br><br><br>
+    <h1 style="text-align: center; margin-left: -30px;">Welcome to my website</h1>
+    <div class="container">
+        <div class="preview">
+            <h1  id="text" ></h1>
+        </div>
+        <div class="settings">
+            <div class="group b1">
+                <input placeholder="Color..." type="text" id="color">
+                <input placeholder="font-size..." type="text" id="font-size">
+            </div><br>
+            <div class="group b2">
+                <input placeholder="background..." type="text" id="background">
+                <input placeholder="font-weight..." type="text" id="font-weight">
+            </div><br>
+            <div class="group b3">
+                <input placeholder="text-transfrom..." type="text" id="text-transfrom">
+                <input placeholder="text-align..." type="text" id="text-align">
+            </div><br>
+            <div class="btngroup">
+                <input style="position:relative; left:-80px" placeholder="Your-Text" type="text" id="textInp">
+                <h1 style="color: red; position: relative; left: -150px;" id="warn"></h1>
+                <button onclick="previewFunc()" style="text-align: center;">Preview</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
